@@ -1,0 +1,24 @@
+{
+  "name": "ESPN Fantasy Basketball Chrome Extension",
+  "version": "0.0.1",
+  "description": "Improve display on ESPN's fantasy basketball site",
+  "permissions": ["declarativeContent", "storage"],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "*://fantasy.espn.com/basketball/*"
+      ],
+      "css": [
+        "css/inject.css"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}

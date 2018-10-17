@@ -1,0 +1,51 @@
+div.Ad.Ad--banner,
+div.Ad.Ad--inContent,
+div#games-footercol {
+  display: none;
+}
+
+div.shell-container {
+  background-color: #ffffff;
+}
+
+div.gameBorder {
+  border: 1px solid rgb(255, 144, 0);
+  margin-left: 12px;
+}
+
+div.gameBorder::before {
+  display: none !important;
+}
+
+div.scoring-period-nav {
+  border: 1px solid rgb(255, 144, 0);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.myTeamButtons {
+  right: 12px !important;
+}
+
+div.Table2__shadow--left,
+div.Table2__shadow--right {
+  opacity: 0;
+}
+
+div.Table2__arrow-container {
+  display: none;
+}
+
+.Table2--hasFixed-left .Table2__table__wrapper > tbody > tr > td:first-child,
+.Table2--hasFixed-right .Table2__table__wrapper > tbody > tr > td:first-child {
+  border-left: 1px solid #dcdddf !important;
+}
+
+.Table2__thead > .Table2__tr {
+  border-top: none;
+}
+
+table.Table2__table-scroll {
+  width: auto;
+  border-right: 1px solid #dcdddf !important;
+}
